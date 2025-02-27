@@ -1,0 +1,39 @@
+MATCH (r:Receta {display_name: "Spaghetti Carbonara"}), (i:Ingrediente)
+WHERE i.display_name IN ["Spaghetti", "Huevos", "Panceta", "Queso_Parmesano"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Sushi"}), (i:Ingrediente)
+WHERE i.display_name IN ["Arroz", "Pescado", "Alga_Nori"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Tacos al Pastor"}), (i:Ingrediente)
+WHERE i.display_name IN ["Tortillas", "Cerdo", "Piña"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Ensalada César"}), (i:Ingrediente)
+WHERE i.display_name IN ["Lechuga", "Pollo", "Queso_Parmesano"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Paella"}), (i:Ingrediente)
+WHERE i.display_name IN ["Arroz", "Pollo", "Azafrán"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Coq au Vin"}), (i:Ingrediente)
+WHERE i.display_name IN ["Pollo", "Vino Tinto", "Champiñones"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Hamburguesa con Queso"}), (i:Ingrediente)
+WHERE i.display_name IN ["Carne Molida", "Queso Cheddar", "Pan_de_Hamburguesa"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Pad Thai"}), (i:Ingrediente)
+WHERE i.display_name IN ["Fideos_de_Arroz", "Camarones", "Tamarindo"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Crema de Calabaza"}), (i:Ingrediente)
+WHERE i.display_name IN ["Calabaza", "Nata"]
+MERGE (r)-[:CONTIENE]->(i);
+
+MATCH (r:Receta {display_name: "Cheesecake de Fresas"}), (i:Ingrediente)
+WHERE i.display_name IN ["Azúcar", "Fresas", "Crema_de_Queso"]
+MERGE (r)-[:CONTIENE]->(i);

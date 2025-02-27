@@ -1,0 +1,9 @@
+MATCH (r:Receta {display_name: "Spaghetti Carbonara"}), (b:Bebida {display_name: "Vino Tinto"}) MERGE (r)-[:Marida_con]->(b);
+MATCH (r:Receta {display_name: "Sushi"}), (b:Bebida {display_name: "Sake"}) MERGE (r)-[:Marida_con]->(b);
+MATCH (r:Receta {display_name: "Tacos al Pastor"}), (b:Bebida {display_name: "Cerveza Lager"}) MERGE (r)-[:Marida_con]->(b);
+MATCH (r:Receta {display_name: "Ensalada César"}), (b1:Bebida {display_name: "Refresco"}), (b2:Bebida {display_name: "Agua"}) MERGE (b1)<-[:Marida_con]-(r)-[:Marida_con]->(b2);
+MATCH (r:Receta {display_name: "Paella"}), (b:Bebida {display_name: "Vino Blanco"}) MERGE (r)-[:Marida_con]->(b);
+MATCH (r:Receta {display_name: "Coq au Vin"}), (b:Bebida {display_name: "Vino Tinto"}) MERGE (r)-[:Marida_con]->(b);
+MATCH (r:Receta {display_name: "Hamburguesa con Queso"}), (b1:Bebida {display_name: "Refresco"}), (b2:Bebida {display_name: "Cerveza Lager"}) MERGE (b1)<-[:Marida_con]-(r)-[:Marida_con]->(b2);
+MATCH (r:Receta {display_name: "Pad Thai"}), (b:Bebida {display_name: "Cerveza Lager"}) MERGE (r)-[:Marida_con]->(b);
+MATCH (r:Receta {display_name: "Cheesecake de Fresas"}), (b:Bebida {display_name: "Cafe"}) MERGE (r)-[:Marida_con]->(b);

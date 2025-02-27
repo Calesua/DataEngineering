@@ -1,0 +1,7 @@
+CREATE (Vino_Tinto: Bebida {display_name: "Vino Tinto", tipo: "Vino", region: "España, Francia"})
+CREATE (Sake: Bebida {display_name: "Sake", tipo: "Vino", region: "Japon"})
+CREATE (Cerveza_Lager: Bebida {display_name: "Cerveza Lager", tipo: "Cerveza", region: "Internacional"})
+CREATE (Vino_Blanco: Bebida {display_name: "Vino Blanco", tipo: "Vino", region: "España, Francia"})
+CREATE (Refresco: Bebida {display_name: "Refresco", tipo: "Gaseosa", region: "Internacional"})
+CREATE (Agua: Bebida {display_name: "Agua", tipo: "Gaseosa", region: "Internacional"})
+CREATE (Cafe: Bebida {display_name: "Cafe", tipo: "Bebida Caliente", region: "Internacional"})
