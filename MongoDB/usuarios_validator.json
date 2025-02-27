@@ -1,0 +1,64 @@
+{
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "usuarios validator",
+            "required": ["nombre y apellidos", "email", "tipo_usuario"],
+            "properties": {
+                "nombre y apellidos": {
+                    "bsonType": "string",
+                    "description": "must be a string and is required"
+                },
+                "email": {
+                    "bsonType": "string",
+                    "pattern": "^.+@.+$",
+                    "description": "must be a string and is required. Must match the email format"
+                },
+                "tipo_usuario": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string",
+                        "enum": ["alumno", "profesor"]
+                    },
+                    "description": "must be a string and is required. Can be one or both alumno and profesor"
+                },
+                "cursos_inscritos": {
+                    "bsonType": "array",
+                    "description": "must be an array and is not required",
+                    "items": {
+                        "bsonType": "object",
+                        "required": ["curso", "fecha_inscripcion"],
+                        "properties": {
+                                "curso": {
+                                    "bsonType": "string",
+                                    "description": "must be a valid name and is required"
+                                },
+                                "fecha_inscripcion": {
+                                    "bsonType": "date",
+                                    "description": "must be a date and is required"
+                                }
+                            }
+                        }
+                },
+                "cursos_enseñados": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "required": ["curso", "fecha_inicio"],
+                        "properties": {
+                            "curso": {
+                                "bsonType": "string",
+                                "description": "must be a valid name and is required"
+                            },
+                            "fecha_inicio": {
+                                "bsonType": "date",
+                                "description": "must be a date and is required"
+                            }
+                        }
+                    },
+                    "description": "must be an array and is not required"
+                }
+            }
+        }
+    }
+}

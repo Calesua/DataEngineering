@@ -1,0 +1,3111 @@
+[
+  {
+    "nombre": "Cocina Vegetariana",
+    "descripcion": "Curso sobre cocina vegetariana.",
+    "fecha_inicio": new ISODate("2024-01-26"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández"
+  },
+  {
+    "nombre": "Historia del Arte",
+    "descripcion": "Curso sobre historia del arte.",
+    "fecha_inicio": new ISODate("2024-04-26"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "fecha_fin": new ISODate("2024-10-09"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Diseño de Modas",
+    "descripcion": "Curso sobre diseño de modas.",
+    "fecha_inicio": new ISODate("2024-01-15"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Edición de Video",
+    "descripcion": "Curso sobre edición de video.",
+    "fecha_inicio": new ISODate("2024-06-23"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Carlos García",
+    "fecha_fin": new ISODate("2024-08-24"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 2
+  },
+  {
+    "nombre": "Introducción a la Programación",
+    "descripcion": "Curso sobre introducción a la programación.",
+    "fecha_inicio": new ISODate("2024-10-04"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "fecha_fin": new ISODate("2024-11-08")
+  },
+  {
+    "nombre": "Ingeniería de Software",
+    "descripcion": "Curso sobre ingeniería de software.",
+    "fecha_inicio": new ISODate("2024-10-01"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez"
+  },
+  {
+    "nombre": "Marketing Digital",
+    "descripcion": "Curso sobre marketing digital.",
+    "fecha_inicio": new ISODate("2024-12-29"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López"
+  },
+  {
+    "nombre": "Historia de la Música",
+    "descripcion": "Curso sobre historia de la música.",
+    "fecha_inicio": new ISODate("2024-12-05"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "fecha_fin": new ISODate("2024-12-29")
+  },
+  {
+    "nombre": "Cálculo Diferencial",
+    "descripcion": "Curso sobre cálculo diferencial.",
+    "fecha_inicio": new ISODate("2024-06-26"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 2
+  },
+  {
+    "nombre": "Salud y Bienestar",
+    "descripcion": "Curso sobre salud y bienestar.",
+    "fecha_inicio": new ISODate("2024-05-25"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "fecha_fin": new ISODate("2024-09-20"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 3
+  },
+  {
+    "nombre": "Fotografía de Naturaleza",
+    "descripcion": "Curso sobre fotografía de naturaleza.",
+    "fecha_inicio": new ISODate("2024-09-08"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "fecha_fin": new ISODate("2024-11-17"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Fotografía de Naturaleza",
+    "descripcion": "Curso sobre fotografía de naturaleza.",
+    "fecha_inicio": new ISODate("2024-01-25"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "valoracion": 3
+  },
+  {
+    "nombre": "Música Clásica",
+    "descripcion": "Curso sobre música clásica.",
+    "fecha_inicio": new ISODate("2024-11-17"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Verónica Castillo",
+    "fecha_fin": new ISODate("2024-12-02")
+  },
+  {
+    "nombre": "Química Orgánica",
+    "descripcion": "Curso sobre química orgánica.",
+    "fecha_inicio": new ISODate("2024-02-07"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Verónica Castillo",
+    "fecha_fin": new ISODate("2024-09-16"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Psicología del Comportamiento",
+    "descripcion": "Curso sobre psicología del comportamiento.",
+    "fecha_inicio": new ISODate("2024-01-29"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz"
+  },
+  {
+    "nombre": "Negociación y Ventas",
+    "descripcion": "Curso sobre negociación y ventas.",
+    "fecha_inicio": new ISODate("2024-04-28"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "fecha_fin": new ISODate("2024-11-08")
+  },
+  {
+    "nombre": "Desarrollo Web con JavaScript",
+    "descripcion": "Curso sobre desarrollo web con javascript.",
+    "fecha_inicio": new ISODate("2024-02-27"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "fecha_fin": new ISODate("2024-12-28"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Estrategias de Inversión",
+    "descripcion": "Curso sobre estrategias de inversión.",
+    "fecha_inicio": new ISODate("2024-12-14"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "María Pérez",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 3
+  },
+  {
+    "nombre": "Diseño Gráfico",
+    "descripcion": "Curso sobre diseño gráfico.",
+    "fecha_inicio": new ISODate("2024-07-27"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "fecha_fin": new ISODate("2024-12-27"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 5
+  },
+  {
+    "nombre": "Periodismo Digital",
+    "descripcion": "Curso sobre periodismo digital.",
+    "fecha_inicio": new ISODate("2024-08-29"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Programación en Python",
+    "descripcion": "Curso sobre programación en python.",
+    "fecha_inicio": new ISODate("2024-03-05"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "valoracion": 2
+  },
+  {
+    "nombre": "Cocina Vegetariana",
+    "descripcion": "Curso sobre cocina vegetariana.",
+    "fecha_inicio": new ISODate("2024-02-10"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Administración de Empresas",
+    "descripcion": "Curso sobre administración de empresas.",
+    "fecha_inicio": new ISODate("2024-06-06"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "fecha_fin": new ISODate("2024-11-02"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 2
+  },
+  {
+    "nombre": "Introducción a la Física",
+    "descripcion": "Curso sobre introducción a la física.",
+    "fecha_inicio": new ISODate("2024-11-26"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "María Pérez"
+  },
+  {
+    "nombre": "Cocina Vegetariana",
+    "descripcion": "Curso sobre cocina vegetariana.",
+    "fecha_inicio": new ISODate("2024-04-17"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Laura Gómez",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Psicología del Comportamiento",
+    "descripcion": "Curso sobre psicología del comportamiento.",
+    "fecha_inicio": new ISODate("2024-11-04"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "valoracion": 1
+  },
+  {
+    "nombre": "Astrofísica",
+    "descripcion": "Curso sobre astrofísica.",
+    "fecha_inicio": new ISODate("2024-06-02"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "fecha_fin": new ISODate("2024-10-25"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 3
+  },
+  {
+    "nombre": "Ingeniería de Software",
+    "descripcion": "Curso sobre ingeniería de software.",
+    "fecha_inicio": new ISODate("2024-11-26"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "fecha_fin": new ISODate("2024-12-04"),
+    "valoracion": 4
+  },
+  {
+    "nombre": "Técnicas de Meditación",
+    "descripcion": "Curso sobre técnicas de meditación.",
+    "fecha_inicio": new ISODate("2024-04-10"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "María Pérez"
+  },
+  {
+    "nombre": "Dibujo Artístico",
+    "descripcion": "Curso sobre dibujo artístico.",
+    "fecha_inicio": new ISODate("2024-11-26"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López"
+  },
+  {
+    "nombre": "Marketing Digital",
+    "descripcion": "Curso sobre marketing digital.",
+    "fecha_inicio": new ISODate("2024-07-15"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "fecha_fin": new ISODate("2024-12-30"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Lengua Española",
+    "descripcion": "Curso sobre lengua española.",
+    "fecha_inicio": new ISODate("2024-12-30"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Introducción a la Programación",
+    "descripcion": "Curso sobre introducción a la programación.",
+    "fecha_inicio": new ISODate("2024-04-04"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "fecha_fin": new ISODate("2024-08-13")
+  },
+  {
+    "nombre": "Diseño de Modas",
+    "descripcion": "Curso sobre diseño de modas.",
+    "fecha_inicio": new ISODate("2024-08-29"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez"
+  },
+  {
+    "nombre": "Estrategias de Inversión",
+    "descripcion": "Curso sobre estrategias de inversión.",
+    "fecha_inicio": new ISODate("2024-03-27"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "fecha_fin": new ISODate("2024-05-18"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 4
+  },
+  {
+    "nombre": "Robótica para Principiantes",
+    "descripcion": "Curso sobre robótica para principiantes.",
+    "fecha_inicio": new ISODate("2024-01-31"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "valoracion": 4
+  },
+  {
+    "nombre": "Introducción a la Biología",
+    "descripcion": "Curso sobre introducción a la biología.",
+    "fecha_inicio": new ISODate("2024-04-25"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Redes y Telecomunicaciones",
+    "descripcion": "Curso sobre redes y telecomunicaciones.",
+    "fecha_inicio": new ISODate("2024-01-26"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Carlos García",
+    "fecha_fin": new ISODate("2024-12-19"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 2
+  },
+  {
+    "nombre": "Psicología Infantil",
+    "descripcion": "Curso sobre psicología infantil.",
+    "fecha_inicio": new ISODate("2024-03-08"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "valoracion": 1
+  },
+  {
+    "nombre": "Introducción a SQL",
+    "descripcion": "Curso sobre introducción a sql.",
+    "fecha_inicio": new ISODate("2024-09-13"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "fecha_fin": new ISODate("2024-12-09"),
+    "valoracion": 3
+  },
+  {
+    "nombre": "Salud y Bienestar",
+    "descripcion": "Curso sobre salud y bienestar.",
+    "fecha_inicio": new ISODate("2024-02-20"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Verónica Castillo",
+    "valoracion": 1
+  },
+  {
+    "nombre": "Diseño Gráfico",
+    "descripcion": "Curso sobre diseño gráfico.",
+    "fecha_inicio": new ISODate("2024-01-02"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Miguel Ángel",
+    "valoracion": 3
+  },
+  {
+    "nombre": "Geografía Mundial",
+    "descripcion": "Curso sobre geografía mundial.",
+    "fecha_inicio": new ISODate("2024-12-12"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "María Pérez",
+    "fecha_fin": new ISODate("2025-01-01")
+  },
+  {
+    "nombre": "Programación en Python",
+    "descripcion": "Curso sobre programación en python.",
+    "fecha_inicio": new ISODate("2024-11-09"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez"
+  },
+  {
+    "nombre": "Estrategias de Inversión",
+    "descripcion": "Curso sobre estrategias de inversión.",
+    "fecha_inicio": new ISODate("2024-12-19"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Carlos García"
+  },
+  {
+    "nombre": "Introducción a la Programación",
+    "descripcion": "Curso sobre introducción a la programación.",
+    "fecha_inicio": new ISODate("2024-09-21"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 4
+  },
+  {
+    "nombre": "Diseño de Modas",
+    "descripcion": "Curso sobre diseño de modas.",
+    "fecha_inicio": new ISODate("2024-03-25"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández",
+    "fecha_fin": new ISODate("2024-12-01"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Literatura Inglesa",
+    "descripcion": "Curso sobre literatura inglesa.",
+    "fecha_inicio": new ISODate("2024-11-30"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Introducción a la Biología",
+    "descripcion": "Curso sobre introducción a la biología.",
+    "fecha_inicio": new ISODate("2024-02-19"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "fecha_fin": new ISODate("2024-05-27"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Psicología Infantil",
+    "descripcion": "Curso sobre psicología infantil.",
+    "fecha_inicio": new ISODate("2024-01-02"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "María Pérez",
+    "valoracion": 4
+  },
+  {
+    "nombre": "Música Clásica",
+    "descripcion": "Curso sobre música clásica.",
+    "fecha_inicio": new ISODate("2024-01-14"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Miguel Ángel",
+    "fecha_fin": new ISODate("2024-02-09"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Música Clásica",
+    "descripcion": "Curso sobre música clásica.",
+    "fecha_inicio": new ISODate("2024-01-03"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Miguel Ángel",
+    "fecha_fin": new ISODate("2024-08-18")
+  },
+  {
+    "nombre": "Primeros Auxilios",
+    "descripcion": "Curso sobre primeros auxilios.",
+    "fecha_inicio": new ISODate("2024-12-23"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "valoracion": 5
+  },
+  {
+    "nombre": "Astronomía Básica",
+    "descripcion": "Curso sobre astronomía básica.",
+    "fecha_inicio": new ISODate("2024-10-24"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Carlos García"
+  },
+  {
+    "nombre": "Salud y Bienestar",
+    "descripcion": "Curso sobre salud y bienestar.",
+    "fecha_inicio": new ISODate("2024-06-27"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "valoracion": 1
+  },
+  {
+    "nombre": "Cocina Internacional",
+    "descripcion": "Curso sobre cocina internacional.",
+    "fecha_inicio": new ISODate("2024-12-02"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Laura Gómez",
+    "fecha_fin": new ISODate("2024-12-16"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Historia del Arte",
+    "descripcion": "Curso sobre historia del arte.",
+    "fecha_inicio": new ISODate("2024-06-13"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "fecha_fin": new ISODate("2024-10-11")
+  },
+  {
+    "nombre": "Gestión de Proyectos",
+    "descripcion": "Curso sobre gestión de proyectos.",
+    "fecha_inicio": new ISODate("2024-04-01"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Laura Gómez"
+  },
+  {
+    "nombre": "Redes y Telecomunicaciones",
+    "descripcion": "Curso sobre redes y telecomunicaciones.",
+    "fecha_inicio": new ISODate("2024-12-23"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "fecha_fin": new ISODate("2024-12-28"),
+    "valoracion": 4
+  },
+  {
+    "nombre": "Escritura Creativa",
+    "descripcion": "Curso sobre escritura creativa.",
+    "fecha_inicio": new ISODate("2024-06-23"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Verónica Castillo",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Primeros Auxilios",
+    "descripcion": "Curso sobre primeros auxilios.",
+    "fecha_inicio": new ISODate("2024-06-08"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López"
+  },
+  {
+    "nombre": "Astrofísica",
+    "descripcion": "Curso sobre astrofísica.",
+    "fecha_inicio": new ISODate("2024-03-03"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Salud y Bienestar",
+    "descripcion": "Curso sobre salud y bienestar.",
+    "fecha_inicio": new ISODate("2024-12-07"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Verónica Castillo",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Salud y Bienestar",
+    "descripcion": "Curso sobre salud y bienestar.",
+    "fecha_inicio": new ISODate("2024-02-02"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez"
+  },
+  {
+    "nombre": "Redes y Telecomunicaciones",
+    "descripcion": "Curso sobre redes y telecomunicaciones.",
+    "fecha_inicio": new ISODate("2024-06-20"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Diseño de Modas",
+    "descripcion": "Curso sobre diseño de modas.",
+    "fecha_inicio": new ISODate("2024-04-16"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz",
+    "fecha_fin": new ISODate("2024-09-12"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Periodismo Digital",
+    "descripcion": "Curso sobre periodismo digital.",
+    "fecha_inicio": new ISODate("2024-05-16"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz"
+  },
+  {
+    "nombre": "Ingeniería de Software",
+    "descripcion": "Curso sobre ingeniería de software.",
+    "fecha_inicio": new ISODate("2024-03-28"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez"
+  },
+  {
+    "nombre": "Filosofía Moderna",
+    "descripcion": "Curso sobre filosofía moderna.",
+    "fecha_inicio": new ISODate("2024-12-29"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "María Pérez",
+    "fecha_fin": new ISODate("2024-12-31"),
+    "valoracion": 4
+  },
+  {
+    "nombre": "Cocina Vegetariana",
+    "descripcion": "Curso sobre cocina vegetariana.",
+    "fecha_inicio": new ISODate("2024-06-21"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 3
+  },
+  {
+    "nombre": "Fotografía Digital",
+    "descripcion": "Curso sobre fotografía digital.",
+    "fecha_inicio": new ISODate("2024-07-07"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "fecha_fin": new ISODate("2024-08-24"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Marketing Digital",
+    "descripcion": "Curso sobre marketing digital.",
+    "fecha_inicio": new ISODate("2024-04-29"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "fecha_fin": new ISODate("2024-06-02"),
+    "valoracion": 5
+  },
+  {
+    "nombre": "Derecho Constitucional",
+    "descripcion": "Curso sobre derecho constitucional.",
+    "fecha_inicio": new ISODate("2024-10-04"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández",
+    "fecha_fin": new ISODate("2024-11-27"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Geografía Mundial",
+    "descripcion": "Curso sobre geografía mundial.",
+    "fecha_inicio": new ISODate("2024-11-17"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "fecha_fin": new ISODate("2024-12-12")
+  },
+  {
+    "nombre": "Robótica para Principiantes",
+    "descripcion": "Curso sobre robótica para principiantes.",
+    "fecha_inicio": new ISODate("2024-09-11"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Economía Global",
+    "descripcion": "Curso sobre economía global.",
+    "fecha_inicio": new ISODate("2024-01-14"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Verónica Castillo",
+    "fecha_fin": new ISODate("2024-07-12"),
+    "valoracion": 3
+  },
+  {
+    "nombre": "Diseño Gráfico",
+    "descripcion": "Curso sobre diseño gráfico.",
+    "fecha_inicio": new ISODate("2024-10-09"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Matemáticas Avanzadas",
+    "descripcion": "Curso sobre matemáticas avanzadas.",
+    "fecha_inicio": new ISODate("2024-10-24"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 5
+  },
+  {
+    "nombre": "Ingeniería de Software",
+    "descripcion": "Curso sobre ingeniería de software.",
+    "fecha_inicio": new ISODate("2024-12-10"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "fecha_fin": new ISODate("2024-12-16")
+  },
+  {
+    "nombre": "Artes Marciales",
+    "descripcion": "Curso sobre artes marciales.",
+    "fecha_inicio": new ISODate("2024-11-13"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Laura Gómez",
+    "fecha_fin": new ISODate("2024-12-03")
+  },
+  {
+    "nombre": "Dibujo Artístico",
+    "descripcion": "Curso sobre dibujo artístico.",
+    "fecha_inicio": new ISODate("2024-07-02"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López"
+  },
+  {
+    "nombre": "Ingeniería de Software",
+    "descripcion": "Curso sobre ingeniería de software.",
+    "fecha_inicio": new ISODate("2024-11-04"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Elena López",
+    "valoracion": 5
+  },
+  {
+    "nombre": "Ingeniería de Software",
+    "descripcion": "Curso sobre ingeniería de software.",
+    "fecha_inicio": new ISODate("2024-01-04"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Literatura Inglesa",
+    "descripcion": "Curso sobre literatura inglesa.",
+    "fecha_inicio": new ISODate("2024-11-21"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Cultura Japonesa",
+    "descripcion": "Curso sobre cultura japonesa.",
+    "fecha_inicio": new ISODate("2024-03-07"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Escritura Creativa",
+    "descripcion": "Curso sobre escritura creativa.",
+    "fecha_inicio": new ISODate("2024-03-16"),
+    "temas": [
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz",
+    "fecha_fin": new ISODate("2024-11-26")
+  },
+  {
+    "nombre": "Dibujo Artístico",
+    "descripcion": "Curso sobre dibujo artístico.",
+    "fecha_inicio": new ISODate("2024-10-23"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "fecha_fin": new ISODate("2024-12-07"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Ciberseguridad",
+    "descripcion": "Curso sobre ciberseguridad.",
+    "fecha_inicio": new ISODate("2024-10-11"),
+    "temas": [
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Psicología Infantil",
+    "descripcion": "Curso sobre psicología infantil.",
+    "fecha_inicio": new ISODate("2024-06-11"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Historia de la Música",
+    "descripcion": "Curso sobre historia de la música.",
+    "fecha_inicio": new ISODate("2024-05-26"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "Carlos García",
+    "fecha_fin": new ISODate("2024-10-17"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Negociación y Ventas",
+    "descripcion": "Curso sobre negociación y ventas.",
+    "fecha_inicio": new ISODate("2024-07-07"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      }
+    ],
+    "profesor": "José Morales",
+    "fecha_fin": new ISODate("2024-12-07"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Marketing Digital",
+    "descripcion": "Curso sobre marketing digital.",
+    "fecha_inicio": new ISODate("2024-01-07"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Derecho Constitucional",
+    "descripcion": "Curso sobre derecho constitucional.",
+    "fecha_inicio": new ISODate("2024-02-14"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres"
+  },
+  {
+    "nombre": "Cultura Japonesa",
+    "descripcion": "Curso sobre cultura japonesa.",
+    "fecha_inicio": new ISODate("2024-12-25"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      }
+    ],
+    "profesor": "Ana Martínez",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 4
+  },
+  {
+    "nombre": "Historia de la Música",
+    "descripcion": "Curso sobre historia de la música.",
+    "fecha_inicio": new ISODate("2024-07-28"),
+    "temas": [
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Roberto Díaz",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ]
+  },
+  {
+    "nombre": "Literatura Inglesa",
+    "descripcion": "Curso sobre literatura inglesa.",
+    "fecha_inicio": new ISODate("2024-09-05"),
+    "temas": [
+      {
+        "nombre": "Historia",
+        "recursos": [
+          {
+            "tipo": "video"
+          }
+        ]
+      },
+      {
+        "nombre": "Avanzado",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "tutorial"
+          }
+        ]
+      },
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Beatriz Torres",
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 3
+  },
+  {
+    "nombre": "Cálculo Diferencial",
+    "descripcion": "Curso sobre cálculo diferencial.",
+    "fecha_inicio": new ISODate("2024-03-13"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Verónica Castillo",
+    "valoracion": 2
+  },
+  {
+    "nombre": "Filosofía Moderna",
+    "descripcion": "Curso sobre filosofía moderna.",
+    "fecha_inicio": new ISODate("2024-03-19"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      },
+      {
+        "nombre": "Técnicas",
+        "recursos": [
+          {
+            "tipo": "presentación"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "Alberto Sánchez",
+    "fecha_fin": new ISODate("2024-07-28"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 3
+  },
+  {
+    "nombre": "Introducción a la Biología",
+    "descripcion": "Curso sobre introducción a la biología.",
+    "fecha_inicio": new ISODate("2024-04-27"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      },
+      {
+        "nombre": "Fundamentos",
+        "recursos": [
+          {
+            "tipo": "video"
+          },
+          {
+            "tipo": "documento"
+          }
+        ]
+      }
+    ],
+    "profesor": "María Pérez",
+    "fecha_fin": new ISODate("2024-12-25"),
+    "examenes": [
+      "Examen Parcial",
+      "Examen Final"
+    ],
+    "valoracion": 1
+  },
+  {
+    "nombre": "Astronomía Básica",
+    "descripcion": "Curso sobre astronomía básica.",
+    "fecha_inicio": new ISODate("2024-07-05"),
+    "temas": [
+      {
+        "nombre": "Prácticas",
+        "recursos": [
+          {
+            "tipo": "ejercicio"
+          },
+          {
+            "tipo": "receta"
+          }
+        ]
+      }
+    ],
+    "profesor": "Luis Hernández"
+  }
+]

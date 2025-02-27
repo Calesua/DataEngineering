@@ -1,0 +1,56 @@
+{
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "cursos validator",
+            "required": ["nombre", "descripcion", "fecha_inicio"],
+            "properties": {
+                "nombre": {
+                    "bsonType": "string",
+                    "description": "must be a string and is required"
+                },
+                "descripcion": {
+                    "bsonType": "string",
+                    "description": "must be a string and is required"
+                },
+                "fecha_inicio": {
+                    "bsonType": "date",
+                    "description": "must be a date and is required"
+                },
+                "fecha_fin": {
+                    "bsonType": "date",
+                    "description": "must be a date and is not required"
+                },
+                "temas": {
+                    "bsonType": "array",
+                    "description": "must be an array and is not required",
+                    "required": ["nombre"]
+                },
+                "temas.nombre": {
+                    "bsonType": "string",
+                    "description": "must be a string and is not required"
+                },
+                "temas.recursos": {
+                    "bsonType": "array",
+                    "description": "must be an array and is not required"
+                },
+                "temas.recursos.tipo": {
+                    "bsonType": "string",
+                    "description": "must be a string and is required"
+                },
+                "examenes": {
+                    "bsonType": "array",
+                    "description": "must be an array and is not required"
+                },
+                "profesor": {
+                    "bsonType": "string",
+                    "description": "must be a string and is not required"
+                },
+                "valoracion": {
+                    "bsonType": "int",
+                    "description": "must be an integer and is not required"
+                }
+            }
+        }
+    }
+}

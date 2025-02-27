@@ -1,0 +1,50 @@
+[
+    {
+        "user": "PeterParker",
+        "comment": "Can't wait to see what epic roof party setup you've got planned, Justin!",
+        "date": new ISODate("2022-01-01"),
+        "news_id": "66184b9f27337aeb04dcd3aa"
+    },
+    {
+        "user": "JohnyBravo",
+        "comment": "Me trying to casually show up to Justin Bieber's roof party like... This is gonna be legendary!",
+        "date": new ISODate("2022-01-01"),
+        "news_id": "66184b9f27337aeb04dcd3aa"
+    },
+    {
+        "user": "Babaclava",
+        "comment": "Wondering what the dress code is for a roof party with Justin Bieber... Jeans and a t-shirt or is it full-on glam?",
+        "date": new ISODate("2022-01-01"),
+        "news_id": "66184b9f27337aeb04dcd3aa"
+    },
+    {
+        "user": "ScoobyDoo",
+        "comment": "Droppin' it like it's hot 2005 with this tour lineup! Can't wait to see the West Coast legends all on one stage. #HappyFlowerTour #HighSchoolReunionTour",
+        "date": new ISODate("2022-01-01"),
+        "news_id": "66184b9f27337aeb04dcd3ab"
+    },
+    {
+        "user": "PenelopeCruz",
+        "comment": "Is it July yet?! This tour is gonna be epic - Snoop, Wiz, Warren G, Too $hort... all together? Sign me up!",
+        "date": new ISODate("2022-01-02"),
+        "news_id": "66184b9f27337aeb04dcd3ab"
+    },
+    {
+        "user": "ScoobyDoo",
+        "comment": "Who remembers cruisin' in their car bumpin' these tracks back in the day? This tour is a trip down memory lane for sure! Any chance of a surprise appearance from Nate Dogg?",
+        "date": new ISODate("2022-01-01"),
+        "news_id": "66184b9f27337aeb04dcd3ab"
+    },
+    {
+        "user": "FetucciniBoy",
+        "comment": "Excited for the Mystery Machine Crew! Ruh-roh! Sounds like there's a major mystery brewing, Scoob! Can't wait to see the gang solve it and unmask the culprit. #ScoobyDooBigAdventure",
+        "date": new ISODate("2022-01-02"),
+        "news_id": "66184b9f27337aeb04dcd3ac"
+    },
+    {
+        "user": "Banderas, Antonio Banderas",
+        "comment": "Like, totally tubular adventure time! This reminds me of all the awesome mysteries Scooby and the gang have solved over the years. Feeling nostalgic for some classic Scooby-Doo!",
+        "date": new ISODate("2022-01-03"),
+        "news_id": "66184b9f27337aeb04dcd3ac"
+    }
+]

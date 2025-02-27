@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Johny Bravo" ,
+        "user_name": "JohnyBravo",
+        "twitter_account": "jb_twitter",
+        "description": "JB, but cooler than Justin Biever",
+        "address": {
+            "street": "Main St",
+            "number": 1,
+            "door": "3",
+            "zip_code": 34678,
+            "city": "NYC"},
+        "telephones": [123456789, 987654321]
+    },
+    {
+        "name": "Justin Biever",
+        "user_name": "JustinBiever",
+        "twitter_account": "DaRealJustinBiever",
+        "description": "JB, but not so cool as JohnyBravo",
+        "address": {
+            "street": "Main St",
+            "number": 2,
+            "door": "A",
+            "zip_code": 34678,
+            "city": "NYC"},
+        "telephones": [345678925, 465858643]
+    },
+    {
+        "name": "Bob Smith",
+        "user_name": "SnoopDogg",
+        "twitter_account": "SnoopDogg",
+        "description": "Snoop, but not so cool as JustinBiever",
+        "address": {
+            "street": "Elm St",
+            "number": 5,
+            "door": "C",
+            "zip_code": 34678,
+            "city": "Kingston"
+        }
+    },
+    {
+        "name": "Scooby Donatello Onizuka Obama",
+        "user_name": "ScoobyDoo",
+        "twitter_account": "Wealthy ScoobyDoo",
+        "description": "Money, money, money",
+        "telephones": [457588753]
+    }
+]

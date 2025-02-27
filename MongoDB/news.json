@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Justin Biever on concert 💖",
+        "corpus": "I'll be waiting for you to share the best music at my roof party tonight",
+        "author": "6618084527337aeb04dcd397",
+        "date": new ISODate("2022-01-01"),
+        "tags": ["music", "party", "JustinBiever"]
+    },
+    {
+        "title": "Snoop Dogg Happy-Flower tour",
+        "corpus": "🎤 Snoop Dogg and Wiz Khalifa are teaming up for their High School Reunion Tour!🎉\nThis multi-city jaunt, slated to kick off on July 7, will feature West Coast legends Warren G,\nToo $hort, and Berner, with special guest DJ Drama. ",
+        "author": "6618084527337aeb04dcd397",
+        "date": new ISODate("2022-01-01"),
+        "tags": ["music", "rap", "SnoopDogg"]
+    },
+    {
+        "title": "Scooby-Doo on a big adventure 🤩",
+        "corpus": "I am going with my gang on a big adventure, and we're going to make it big!",
+        "author": "6618084527337aeb04dcd397",
+        "date": new ISODate("2022-01-02"),
+        "tags": ["cinema", "ScoobyDoo"]
+    },
+    {
+        "title": "Have anyone seen my comb? 🪮",
+        "corpus": "Really, I can't go out without my pompadour! PM me if you see it!",
+        "author": "661807d127337aeb04dcd390",
+        "date": new ISODate("2022-01-04")
+    },
+    {
+        "title": "Best film ever!!!",
+        "corpus": "A truly hair-raising adventure filled with twists, turns, and unexpected surprises. Will Scooby-Doo and Snoopy reunite, or will their paths diverge forever in the haunting forest? Only time (and a few Scooby Snacks) will reveal the truth! 🌲🌠🕵️‍♂️",
+        "author": "661807d127337aeb04dcd392",
+        "date": new ISODate("2022-01-05"),
+        "tags": ["cinema", "ScoobyDoo", "Snoopy", "ScoobySnacks"]
+    }
+]

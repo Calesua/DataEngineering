@@ -1,0 +1,27 @@
+{
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "Comments object validation",
+            "required": ["user", "comment", "date"],
+            "properties": {
+                "user": {
+                    "bsonType": "string",
+                    "description": "must be a string and is required"
+                },
+                "comment": {
+                    "bsonType": "string",
+                    "description": "must be a string and is required"
+                },
+                "date": {
+                    "bsonType": "date",
+                    "description": "must be a date and is required"
+                },
+                "news_id": {
+                    "bsonType": "string",
+                    "description": "must be a string and is required"
+                }
+            }
+        }
+    }
+}
