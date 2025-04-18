@@ -1,0 +1,9 @@
+# This file is used to install the required packages for the project.
+# It is recommended to use a virtual environment to install the packages.
+# Use the following command to install the packages:
+# pip install -r requirements.txt
+
+# General packages
+
+# Service packages
+kafka-python
