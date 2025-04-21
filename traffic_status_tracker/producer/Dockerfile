@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN apt-get update && apt-get install -y netcat-openbsd
 RUN chmod +x wait-for-it.sh
 
-CMD ["./wait-for-it.sh", "kafka", "9093", "--", "python", "traffic_producer.py"]
+CMD ["./wait-for-it.sh", "kafka", "9092", "--", "python", "traffic_producer.py"]
