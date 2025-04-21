@@ -2,10 +2,13 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
+COPY . .
+
+# Install python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY event.py .
-COPY consumer.py .
+# Install netcat for wait-for-it script
+RUN apt-get update && apt-get install -y netcat-openbsd
+RUN chmod +x wait-for-it.sh
 
-CMD ["python", "consumer.py"]
+CMD ["./wait-for-it.sh", "kafka", "9093", "--", "python", "traffic_producer.py"]

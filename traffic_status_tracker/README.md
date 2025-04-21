@@ -45,4 +45,4 @@ This project is under MIT license.
 
 # Author
 
-Cristian Aleman
+Cristian Aleman Suarez (Github: Calesua)

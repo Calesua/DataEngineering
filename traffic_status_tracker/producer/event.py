@@ -1,4 +1,4 @@
-from dataclass import dataclass
+from dataclasses import dataclass
 from datetime import datetime
 
 @dataclass
@@ -11,7 +11,7 @@ class TrafficEvent:
 
     def to_dict(self) -> dict:
         """Convert the TrafficEvent instance to a dictionary."""
-        
+
         return {
             "location": self.location,
             "traffic_level": self.traffic_level,

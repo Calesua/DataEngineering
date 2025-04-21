@@ -5,6 +5,6 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY traffic_producer.py .
+COPY consumer.py .
 
-CMD ["python", "traffic_producer.py"]
+CMD ["python", "consumer.py"]

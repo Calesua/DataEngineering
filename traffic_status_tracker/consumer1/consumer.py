@@ -15,11 +15,3 @@ if bootstrap_connected():
     print("Connected to Kafka broker")
 else:
     print("Failed to connect to Kafka broker")
-
-
-
-
-producer = KafkaProducer(
-    bootstrap_servers="localhost:9093",
-    value_serializer=lambda v: json.dumps(v).encode("utf-8"),
-)
