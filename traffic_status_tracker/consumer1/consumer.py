@@ -1,26 +1,56 @@
-import json
+from pyspark.sql import SparkSession
+from pyspark.sql.types import StructType, StringType, IntegerType, TimestampType
+from pyspark.sql.functions import from_json, col, window, avg
 
-from kafka import KafkaConsumer
+# Spark Structured Streaming
 
+# Create a Spark session
+spark = SparkSession.builder \
+    .appName("KafkaConsumer") \
+    .getOrCreate()
 
-consumer1 = KafkaConsumer(
-    bootstrap_servers="kafka:9092",
-    client_id ="consumer1",
-    group_id="traffic-status-group",
-    value_deserializer=lambda m: json.loads(m.decode("utf-8")),
-    auto_offset_reset="earliest",
-    enable_auto_commit=True
-    )
+spark.sparkContext.setLogLevel("WARN") # Only show WARN and error messages (Ignore INFO and DEBUG)
 
+# Read from Kafka topic: Starts from the earliest if no checkpoint is found (created at writeStream)
+df_raw = spark.readStream \
+    .format("kafka") \
+    .option("kafka.bootstrap.servers", "kafka:9092") \
+    .option("subscribe", "traffic-events") \
+    .option("startingOffsets", "earliest") \
+    .load()
 
-consumer1.subscribe(topics=["traffic-events"])
+# Transform message from bytes to dataframe
+# Dataframe header: "json_str"
+# Dataframe row: "string in JSON format"
+df_json = df_raw.selectExpr("CAST(value AS STRING) as json_str")
 
-print("Connected. Waiting for messages...")
+# Message schema
+schema = StructType() \
+    .add("location", StringType()) \
+    .add("traffic_level", IntegerType()) \
+    .add("timestamp", TimestampType())
 
-for message in consumer1:
-    print("Received:", message.value)
+# Parse JSON - Dataframe with json keys as columns
+df_parsed = df_json.select(from_json(col("json_str"), schema).alias("data")).select("data.*")
 
-# if bootstrap_connected():
-#     print("Connected to Kafka broker")
-# else:
-#     print("Failed to connect to Kafka broker")
+df_agg = df_parsed \
+    .withWatermark("timestamp", "1 hour") \
+    .groupBy(
+        window(col("timestamp"), "1 hour", "1 hour", "30 minutes"),
+        col("location")
+    ) \
+    .agg(avg("traffic_level").alias("avg_traffic"))
+# .withWatermark("timestamp", "1 minute") Ignore data delayed more than 1 min respect to the last batch
+
+# Write the results
+query = df_agg.writeStream \
+    .outputMode("update") \
+    .format("console") \
+    .option("checkpointLocation", "/app/checkpoints") \
+    .trigger(processingTime="5 seconds") \
+    .start() \
+# .format can be can be "orc", "json", "csv", etc.
+# .option("path", "path/to/destination/dir")
+# eg.: .option("path", "/app/output") \
+
+query.awaitTermination()
