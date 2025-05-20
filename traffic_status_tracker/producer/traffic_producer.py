@@ -1,27 +1,26 @@
 from datetime import datetime
 import json
+from kafka import KafkaProducer
 import random
 import time
 
-from kafka import KafkaProducer
 
-from event import TrafficEvent
-
-# Instantiate the Kafka producer class
 producer = KafkaProducer(
     bootstrap_servers="kafka:9092",
-    value_serializer=lambda v: json.dumps(v.to_dict()).encode("utf-8"),
+    value_serializer=lambda v: json.dumps(v).encode("utf-8"),
 )
 
 
-while True:
-    # Instantiate the TrafficEvent class with random values
-    event = TrafficEvent(
-        location = random.choice(["Madrid", "Barcelona", "Sevilla"]),
-        traffic_level = random.randint(0, 100),
-        timestamp = datetime.now()
-        )
+def generate_event():
+    return {
+        "location": random.choice(["Madrid", "Barcelona", "Sevilla"]),
+        "traffic_level": random.randint(0, 100),
+        "timestamp": datetime.now().isoformat(),
+    }
 
-    producer.send(topic ="traffic-events", value=event)
-    print(f"Sent ({datetime.now()}):{event}")
+
+while True:
+    event = generate_event()
+    producer.send("traffic-events", event)
+    print(f"Enviado ({datetime.now()}):{event}")
     time.sleep(5)
